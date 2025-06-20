@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="container-general">
+                <div class="container-header">
+            <h1>TO-DO</h1>
+        </div>
+        <div class="w-full max-w-sm min-w-[200px]">
+            <div class="relative">
+        <input class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" placeholder="Type task" id="input-task" required>
+            <button class="absolute right-1 top-1 rounded bg-slate-800 py-1 px-2.5 border border-transparent text-center text-sm text-white transition-all shadow-sm hover:shadow focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+      type="button" id="add-task" onclick="addTask()"> Add task </button>
+        </div>
+            </div>
+
+        <div class="TO-DO">
+            <div class="header-list">
+            <h2>TO DO</h2>
+            </div>
+            <div class="to-list">
+            </div>
+
+        </div>
+
+        <div class="DOING">
+            <div class="header-list">
+            <h2>DOING</h2>
+            </div>
+                <div class="to-list">
+
+            </div>
+        </div>
+
+        <div class="DONE">
+            <div class="header-list">
+            <h2>DONE</h2>
+            </div>
+             <div class="to-list">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+  
+    
+</body>
+<script src="script.js"></script>
+</html>

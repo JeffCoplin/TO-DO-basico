@@ -1,0 +1,47 @@
+body {
+    background-color: #F9F6EE;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container-header {
+    font-size: 30px;
+    font-weight: 575;
+}
+
+.TO-DO, .DOING, .DONE {
+    border: 2px solid #D6D3CB;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+.header-list {
+    
+    border-bottom: 2px solid #D6D3CB;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.to-list{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+
+
+
+
